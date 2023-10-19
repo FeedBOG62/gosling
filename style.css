@@ -1,0 +1,64 @@
+.menu-item {
+    color: white;
+    width: 100px;
+}
+
+.menu {
+    list-style: none;
+    color: aqua;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.img .image {
+    size: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image img {
+    size: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.bg-image {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.header {}
+
+@media (max-width: 768px) {
+    .title {
+        max-width: 100%;
+        font-size: 24px;
+    }
+
+    .text {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .menu {
+        display: none;
+    }
+}
